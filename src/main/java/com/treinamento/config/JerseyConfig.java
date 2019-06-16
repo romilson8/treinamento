@@ -3,14 +3,14 @@ package com.treinamento.config;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.context.annotation.Configuration;
 
-import com.treinamento.rest.service.Api;
+import com.treinamento.rest.service.ApiResource;
 
 @Configuration
 public class JerseyConfig extends ResourceConfig {
 
     public JerseyConfig() {
         
-        register(Api.class);
+        register(ApiResource.class);
         
     }
 }

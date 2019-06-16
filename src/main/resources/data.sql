@@ -1,0 +1,3 @@
+INSERT INTO API (NAME, VERSION)
+VALUES
+('API treinamento', 1);
