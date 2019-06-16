@@ -1,4 +1,4 @@
-package com.treinamento.rest;
+package com.treinamento.rest.service;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -12,5 +12,6 @@ public class Api {
 	@Produces(MediaType.TEXT_PLAIN)
 	public String api() {
 		return "API treinamento Java EE";
+		
 	}
 }
